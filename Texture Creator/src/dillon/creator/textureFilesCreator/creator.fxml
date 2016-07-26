@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="212.0" prefWidth="254.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dillon.creator.textureFilesCreator.creatorHandler">
+   <children>
+      <Label layoutX="14.0" layoutY="37.0" text="Tile Width" />
+      <TextField fx:id="tileWidthField" layoutX="80.0" layoutY="33.0" />
+      <Label layoutX="14.0" layoutY="79.0" text="Tile Height" />
+      <TextField fx:id="tileHeightField" layoutX="80.0" layoutY="75.0" />
+      <Label layoutX="28.0" layoutY="126.0" text="Tiles " />
+      <TextField fx:id="tilesField" layoutX="80.0" layoutY="122.0" />
+      <Button fx:id="submit" layoutX="95.0" layoutY="168.0" mnemonicParsing="false" onAction="#generate" text="Generate" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="144.0" prefWidth="329.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dillon.creator.MainMenuHandler">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" text="Dillon's Game Engine Texture Creator">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="98.0" layoutY="53.0" mnemonicParsing="false" onAction="#createIndividualFiles" text="Create Individual files" />
+      <Button layoutX="53.0" layoutY="95.0" mnemonicParsing="false" onAction="#convert" text="Create spritesheet from individual files" />
+   </children>
+</AnchorPane>
